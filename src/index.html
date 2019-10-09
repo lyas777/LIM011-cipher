@@ -6,9 +6,39 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+
     <div id="root">
-      <h1>Hello world!</h1>
+    <!--  <h1>Hello World!</h1>-->
     </div>
+
+    <form class="formulario" action="index.html" method="post">
+      <div id="pag1" class="">
+        <h1 class="formulario_h1">Mensajería Privada</h1>
+        <br><br>
+
+        <h2 for="" class="formulario_h2">Ingresa un Mensaje</h2>
+        <textarea id="mensaje" class="formulario_textArea" rows="5" cols=""></textarea>
+
+        <h2 for="" class="formulario_h2">Ingresa una clave para cifrar o descifrar</h2>
+        <input id="offset" type="number" class="formulario_input" name="" value="">
+
+
+        <input id="btn1" type="submit" class="formulario_submit"name="" value="cifrar">
+        <br>
+        <input id="btn2" type="submit" class="formulario_submit"name="" value="descifrar">
+        <br><br><br>
+      </div>
+
+      <div id="pag2" class="hide">
+
+        <h2 for="" class="formulario_h2">Resultado</h2>
+        <textarea id="resultado" class="formulario_textArea" rows="5" cols=""></textarea>
+        <input id="btn3" type="submit" class="formulario_submit"name="" value="vovler">
+
+      </div>
+    </form>
+
+
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
