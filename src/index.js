@@ -1,7 +1,16 @@
 btn1.addEventListener('click',()=>{
 
-  pag1.classList.add('hide');
-  pag2.classList.remove('hide');
+  const mensaje=document.getElementById('mensaje').value;
+  const offset=document.getElementById('offset').value;
+  const resultado=document.getElementById('resultado').value;
+
+  resultado=mensaje+offset;
+  alert(mensaje);
+  alert(offset);
+  alert(resultado);
+
+
+
 })
 
 btn2.addEventListener('click',()=>{
