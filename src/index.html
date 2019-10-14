@@ -5,41 +5,59 @@
   <meta charset="utf-8">
   <title>Cesar Cipher</title>
   <link rel="stylesheet" href="style.css" />
+
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Syncopate&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Buda:300|Tulpen+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-  <div id="root">
-    <!--  <h1>Hello World!</h1>-->
-  </div>
+  <section>
 
-  <form class="formulario" action="index.html" method="post">
-    <div id="pag1" class="">
-      <h1 class="formulario_h1">Mensajería Privada</h1>
-      <br><br>
+    <header>
+      <h1>KRIPTTA</h1>
+      <div>
+        <h3>Mensajería privada</h3>
+        <p>Kriptta es una aplicación web que ofrece una encriptación en línea. Las conversiones se realizan mediante en el navegador sin interacción a nigun servidor, por tanto tu información es segura ya que no se almacena en ningun sitio.</p> <br>
+      </div>
+    </header>
 
-      <h2 for="" class="formulario_h2">Ingresa un Mensaje</h2>
-      <textarea id="texto" class="formulario_textArea" rows="5" cols=""></textarea>
-      <br>
+    <section>
 
-      <h2 for="" class="formulario_h2">Ingresa una clave para cifrar o descifrar:</h2>
-      <input id="clave" type="number" class="formulario_input" name="" value="" min="1">
+      <div class="grid" action="index.html" method="post">
+        <div class="seccion1">
+          <h2>Mensaje sin Cifrar</h2>
+          <textarea id="texto" rows="6" cols=""></textarea>
+        </div>
+
+        <div class="seccion2">
+          <h2>Ingresa una clave para cifrar o descifrar:</h2>
+          <input id="clave" type="number" name="" value="" min="1">
+          <button id="btn1">Cifrar</button>
+          <button id="btn2">Descifrar</button>
+          <button id="btn3">Limpiar</button>
+
+        </div>
+
+        <div class="seccion3">
+            <h2>Mensaje Cifrado</h2>
+            <textarea id="resultado" rows="6" cols=""></textarea>
+        </div>
+
+      </div>
 
 
-      <input id="btn1" type="submit" class="formulario_submit" name="" value="Cifrar">
-      <br>
-      <input id="btn2" type="submit" class="formulario_submit" name="" value="Descifrar">
-      <br><br><br>
-    </div>
+    </section>
+    <br>
+  </section>
 
-    <div id="pag2" class="hide">
+  <footer class="pie">
+    <p>Aplicación Web desarrollada por Lyascat @Copyright 2019 All rights reversed</p>
+  </footer>
 
-      <h1 for="" class="formulario_h1">Resultado</h1>
-      <textarea id="resultado" class="formulario_textArea" rows="5" cols=""></textarea>
-      <input id="btn3" type="submit" class="formulario_submit" name="" value="Limpiar">
-
-    </div>
-  </form>
 
 
   <script src="cipher.js"></script>

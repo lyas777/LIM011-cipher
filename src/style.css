@@ -4,65 +4,140 @@
 
 body
 {
-  margin: 10;
-  font-family: sans-serif;
-  background-image: url(19276.jpg);
+
+  background-image: url(imagenes/19366.jpg);
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 0;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
 }
 
-.formulario {
-  width: 500px;
-  background-color: #627D80;
+header{
+
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 40px;
+  text-align: left;
+  color: #14415f;
+
+}
+
+h3 {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+p {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+.grid {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(233, 238, 241, 0.699);
   max-width: 100%;
-  margin: auto;
-  padding: 20px;
-  border-radius: 50px;
+  margin: 0 auto;
+  padding: 150px 60px 200px 50px;
+
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.623);
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+
+
+}
+
+.seccion1, .seccion2,.seccion3 {
+  width: 700px;
+  height: 350;
+  margin: 30px auto;
+  max-width: 100%;
+  padding: 40px;
+  background: #0825399d;
+
   box-shadow: 0 0 20px 1px rgba(0, 0, 0, 1);
   position: relative;
 }
-.formulario_h1 {
-  text-align: center;
-  margin-top: 0;
 
-  background-color: #D2F4F6;
-  padding: 2px 2px;
-   border-radius: 60px;
-}
-.formulario_h2 {
-  text-align: center;
-  margin-top: -30px;
-  color: #ffffff;
-}
 
-.formulario_input,.formulario_textArea,.formulario_h2, .formulario_submit
-{
-  display: block;
+.grid input,textarea {
   width: 100%;
-  font-size: 1.3em;
+  display: block;
 
 }
-.formulario_textArea {
+
+.grid textarea {
   padding: 10px;
-  background-color: #D2F4F6;
-
+  background-color: #cee4f3ef;
   border: 1px solid rgba(0, 0, 0, 0.3);
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  font-size: 35px;
+  border:none;
 }
 
-.formulario_input{
+
+.grid h2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 35px;
+  text-align: center;
+  color: #ffffff;
+
+}
+
+.grid input{
   padding: 20px;
-  background-color: #D2F4F6;
-
+  background-color: #cee4f3ef;
   border: 1px solid rgba(0, 0, 0, 0.3);
   margin-bottom: 40px;
+  font-size:30px;
+  text-align: center;
 }
 
+.grid button{
+  width: 100%;
+}
 
+#btn1, #btn2, #btn3{
 
-.formulario_submit{
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(36, 35, 35, 0.637);
   color: white;
-  padding: 10px 20px;
+
   cursor: pointer;
-  border: none;
+  display: block;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+  padding: 5px 5px;
+  margin: 5px auto;
+
+  border: 2px solid rgba(33, 69, 99, 0.705);
+  border-radius: 10px;
+}
+#btn1:hover, #btn2:hover, #btn3:hover{
+  background-color: #9646517a;
+  border: 1px solid #88898aa4;
+}
+#btn1:focus,#btn2:focus,#btn3:focus{
+  outline: 0;
+}
+
+
+.pie{
+  font-family: 'Tulpen One', cursive;
+  font-family: 'Buda', cursive;
+  font-size: 40px;
+  text-align: center;
+  color: #14415f;
+  ;
 
 }
+
+
