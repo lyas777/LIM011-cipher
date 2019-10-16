@@ -7,8 +7,7 @@ window.cipher = {
 		let newMensaje = '';
 		for (let i = 0; i < mensaje.length; i++) {
 			oldASCCI = mensaje[i].charCodeAt();
-			if (oldASCCI == 10) {
-				newASCCI = 10;
+			if (oldASCCI == 10) {newASCCI = 10;
 			} else if (oldASCCI >= 32 && oldASCCI <= 64) {
 				newASCCI = (oldASCCI - 32 + offset) % 33 + 32;
 			} else if (oldASCCI >= 65 && oldASCCI <= 90) {
@@ -17,7 +16,7 @@ window.cipher = {
 				newASCCI = (oldASCCI - 97 + offset) % 26 + 97;
 			} else {
 				newASCCI = "";
-			}
+			} 
 			newMensaje = newMensaje.concat(String.fromCharCode(newASCCI));
 		}
 		return newMensaje;
@@ -33,8 +32,7 @@ window.cipher = {
 				newASCCI = 10;
 			} else if (oldASCCI >= 32 && oldASCCI <= 64) {
 				newASCCI = (oldASCCI - 32 - offset) % 33;
-				if (newASCCI < 0) {
-					newASCCI = newASCCI + 32 + 33;
+				if (newASCCI < 0) {newASCCI = newASCCI + 32 + 33;
 				} else {
 					newASCCI = newASCCI + 32;
 				}
