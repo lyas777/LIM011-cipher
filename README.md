@@ -13,11 +13,22 @@
 
 ## 1. Resumen del Proyecto
 
-Kriptta es una aplicación web el cual puede ser usado como "Herramienta de mensajería secreta", esta aplicación ofrece el servicio de encriptar mensajes en línea.
+Kriptta es una aplicación web la cual puede ser usado como "Herramienta de mensajería secreta", esta aplicación ofrece el servicio de encriptar mensajes en línea.
 
-Las conversiones se realizan mediante el Navegador Web tales como Google Chrome o Mozilla Firefox, sin interactuar con algun servidor, lo que significa que la información que se ingresa no se almacena en ningun servidor ni base de datos, por lo tanto esta aplicación es segura y confiable.
+Las conversiones se realizan mediante el Navegador Web las cuales pueden ser "Google Chrome o Mozilla Firefox" sin interactuar con algun servidor, lo que significa que la información que se ingresa no se almacena en ninguna base de datos, por lo tanto esta aplicación es segura y confiable.
 
-Puedes encriptar datos privados como números de telefono, direcciones, correos, etc. Incluso puedes usar esta herramienta para generar una contraseña segura. Por ejemplo, puedes ingresar una frase y una clave para cifrar la frase, el resultado cifrado puedes usarlo como contraseña.
+Puedes encriptar datos privados como números de teléfono, direcciones, correos, etc. Incluso puedes usar esta herramienta para generar una contraseña segura. Por ejemplo, puedes ingresar una frase y una clave para cifrar la frase, el resultado cifrado puedes usarlo como contraseña.
+
+## 3. Consideraciones generales
+
+* Este proyecto se debe resolver de manera individual.
+* El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
+  interfaz será desplegada usando GitHub pages. Si no sabes lo que es GitHub, no
+  te preocupes, lo aprenderás durante este proyecto.
+* Tiempo para completarlo: Toma como referencia 2 semanas. Trabaja durante el
+  primer Sprint (una semana) y al final, trata de fijar un estimado de cuándo lo
+  terminarás.
+
 
 ## 2. Objetivos de aprendizaje
 
@@ -64,15 +75,7 @@ A continuación se muestra los objetivos que se ha llegado a
 - [ ] Uso de linter para seguir buenas prácticas (ESLINT).
 
 
-## 4. Consideraciones generales
 
-* Este proyecto se debe resolver de manera individual.
-* El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
-  interfaz será desplegada usando GitHub pages. Si no sabes lo que es GitHub, no
-  te preocupes, lo aprenderás durante este proyecto.
-* Tiempo para completarlo: Toma como referencia 2 semanas. Trabaja durante el
-  primer Sprint (una semana) y al final, trata de fijar un estimado de cuándo lo
-  terminarás.
 
 ## 5. Criterios de aceptación mínimos del proyecto
 
