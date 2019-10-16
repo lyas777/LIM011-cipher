@@ -3,9 +3,8 @@
 ## Índice
 
 * [1. Resumen del proyecto](#1-resumen-del-proyecto)
-* [2. Consideraciones generales](#2-consideraciones-generales)
-* [3. Criterios de aceptación mínimos del proyecto](#3-criterios-de-aceptación-mínimos-del-proyecto)
-* [4. Objetivos de aprendizaje](#4-objetivos-de-aprendizaje)
+* [2. Investigación UX](#2-investigacion-ux)
+* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
 
 
 ***
@@ -18,7 +17,17 @@ Las conversiones se realizan mediante el Navegador Web las cuales pueden ser "Go
 
 Puedes encriptar datos privados como números de teléfono, direcciones, correos, etc. Incluso puedes usar esta herramienta para generar una contraseña segura. Por ejemplo, puedes ingresar una frase y una clave para cifrar la frase, el resultado cifrado puedes usarlo como contraseña.
 
-## 2. Consideraciones generales
+## 2. Investigación UX:
+
+### Usuario Objetivo
+
+### ¿Cómo se solucionan los problemas y/o necesidades de los usuarios?
+
+#### Primer Prototipo
+* Fotos del primer prototipo
+* Resumen del Feedback recibido y las mejoras a realiar
+#### Segundo Prototipo
+
 
 * Este proyecto se debe resolver de manera individual.
 * El proyecto será entregado subiendo tu código a GitHub (commit/push) y la
@@ -28,37 +37,8 @@ Puedes encriptar datos privados como números de teléfono, direcciones, correos
   primer Sprint (una semana) y al final, trata de fijar un estimado de cuándo lo
   terminarás.
 
-## 3. Criterios de aceptación mínimos del proyecto
 
-Usa este alfabeto simple (solamente mayúsculas y sin ñ).
-
-* A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-
-La interfaz debe permitir al usuario:
-
-* Elegir un desplazamiento (_offset_) indicando cuántas posiciones queremos que
-  el cifrado desplace cada caracter.
-* Insertar un mensaje (texto) que queremos cifrar.
-* Ver el resultado del mensaje cifrado.
-* Insertar un mensaje (texto) a descifrar.
-* Ver el resultado del mensaje descifrado.
-
-### Scripts / Archivos
-
-#### UX (Diseño de experiencia de usuario)
-
-Antes de iniciar a codear, debes entender el problema que quieres solucionar y
-cómo tu aplicación lo soluciona.
-
-* Trabaja tu primer prototipo con papel y lápiz (blanco y negro).
-* Luego valida esta solución con una compañera (pedir feedback).
-* Toma lo aprendido al momento de validar tu primer prototipo y desarrolla un
-  nuevo prototipo usando alguna herramienta para diseño de prototipos
-  ([Balsamiq](https://balsamiq.com/), [Figma](https://www.figma.com/),
-  [Google Slides](https://www.google.com/intl/es/slides/about/), etc.)
-Estos puntos los presentarás en el `README.md`.
-
-## 4. Objetivos de aprendizaje
+## 3. Objetivos de aprendizaje
 
 El objetivo principal de aprendizaje es adquirir experiencia desarrollando aplicaciones web (WebApp) que interactúen con el usuario a través del navegador y la lógica, utilizando HTML5, CCS3 y JavaScript como herramientas.
 
