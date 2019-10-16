@@ -6,7 +6,6 @@
 * [2. Investigación UX](#2-investigacion-ux)
 * [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
 
-
 ***
 
 ## 1. Resumen del Proyecto
