@@ -4,7 +4,6 @@
 
 body
 {
-
   background-image: url(imagenes/19366.jpg);
   min-height: 100vh;
   min-width: 100vw;
@@ -43,16 +42,12 @@ p {
   max-width: 100%;
   margin: 0 auto;
   padding: 150px 60px 200px 50px;
-
   box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.623);
   position: relative;
-
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-content: center;
-
-
 }
 
 .seccion1, .seccion2,.seccion3 {
@@ -117,7 +112,6 @@ p {
   font-size: 30px;
   padding: 5px 5px;
   margin: 5px auto;
-
   border: 2px solid rgba(33, 69, 99, 0.705);
   border-radius: 10px;
 }
@@ -137,7 +131,6 @@ p {
   text-align: center;
   color: #14415f;
   ;
-
 }
 
 
