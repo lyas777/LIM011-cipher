@@ -48,7 +48,7 @@ A continuación, se muestra las primeras vistas del primer prototipado:
 
 ![Imagen](img_readme/prototipado1.3.png)
 
-*Feedback recibido y las mejoras a realizar
+* Feedback recibido y las mejoras a realizar
 
 El feedback fue realizado con compañeras de squad, de quienes se obtuvo las siguientes mejoras:
 
