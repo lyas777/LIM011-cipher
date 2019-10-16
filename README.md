@@ -62,8 +62,6 @@ El resultado se muestra en la siguiente sección.
 
 De las sugerencias obtenidas en el Feedback con las compañeras de squad, se realizó el siguiente prototipado.
 
-![Imagen](img_readme/prototipado2.png)
-
 
 * Como se puede observar, se tomó las sugerencias recibidas en el feedback, las vistas mostrada anteriormente se estableció en una sola.
 
@@ -71,6 +69,7 @@ De las sugerencias obtenidas en el Feedback con las compañeras de squad, se rea
 
 * La interacción de los botones es solo en una sola vista, así como el ingreso de la clave segura.
 
+![Imagen](img_readme/prototipado2.png)
 
 ## 3. Objetivos de aprendizaje
 
