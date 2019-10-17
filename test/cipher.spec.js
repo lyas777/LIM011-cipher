@@ -13,6 +13,18 @@ describe('cipher', () => {
       //escribe aquí tus test
       expect(cipher.encode('ABCDEFGHIJKLMNOPQRSTUVWXYZ',33)).toBe('HIJKLMNOPQRSTUVWXYZABCDEFG');
     });
+    it('ingreso de enter deberia devolver otro enter', () => {
+      //escribe aquí tus test
+      expect(cipher.encode('\n',33)).toBe('\n');
+    });
+
+    it('ingreso de enter deberia devolver otro enter', () => {
+      //escribe aquí tus test 
+      expect(cipher.encode("",33)).toBe("");
+    });
+
+    
+
     // Hacker edition
     //
     // [Español]
@@ -64,5 +76,16 @@ describe('cipher', () => {
     it('debería retornar " !@" para " !@"', () => {
        expect(cipher.decode(' !@',33)).toBe(' !@');
      });
+
+     it('ingreso de enter deberia devolver otro enter', () => {
+      //escribe aquí tus test
+      expect(cipher.decode('\n',33)).toBe('\n');
+    });
+    
+
+    it('ingreso de enter deberia devolver otro enter', () => {
+      //escribe aquí tus test 
+      expect(cipher.decode("!",33)).toBe("A");
+    });
   });
 });

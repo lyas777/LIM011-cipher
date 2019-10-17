@@ -83,7 +83,7 @@ A continuación, se muestra los objetivos que se ha llegado a
 
 - [ ] Diseñar la aplicación pensando y entendiendo al usuario.
 - [X] Crear prototipos para obtener feedback e iterar.
-- [X] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
+- [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía).
 
 ### HTML y CSS
 
@@ -94,7 +94,7 @@ A continuación, se muestra los objetivos que se ha llegado a
 ### DOM
 
 - [X] Uso de selectores del DOM.
-- [X] Manejo de eventos del DOM.
+- [ ] Manejo de eventos del DOM.
 - [ ] Manipulación dinámica del DOM.
 
 ### Javascript
@@ -109,7 +109,7 @@ A continuación, se muestra los objetivos que se ha llegado a
 - [ ] Testeo de tus funciones.
 
 ### Git y GitHub
-- [ ] Comandos de git (add | commit | pull | status | push).
+- [X] Comandos de git (add | commit | pull | status | push).
 - [ ] Manejo de repositorios de GitHub (clone | fork | gh-pages).
 
 ### Buenas prácticas de desarrollo
