@@ -26,7 +26,7 @@ A continuación se muestra en las siguientes imagenes la vista del resultado fin
 
 ### Usuario Objetivo
 
-Esta herramienta está dirigida para un público en general: Jóvenes y adultos quienes tengan necesidades de enviar mensajes privados.. 
+Esta herramienta está dirigida para un público en general: Jóvenes y adultos quienes tengan necesidades de enviar mensajes privados..
 
 ### ¿Cómo se solucionan los problemas y/o necesidades de los usuarios?
 
@@ -87,9 +87,9 @@ A continuación, se muestra los objetivos que se ha llegado a
 
 ### HTML y CSS
 
-- [X] Uso correcto de HTML semántico.
-- [X] Uso de selectores de CSS.
-- [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
+- [ ] Uso correcto de HTML semántico.
+- [ ] Uso de selectores de CSS.
+- [X] Construir tu aplicación respetando el diseño realizado (maquetación).
 
 ### DOM
 
