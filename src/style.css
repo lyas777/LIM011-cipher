@@ -17,7 +17,7 @@ body
 
 header{
   font-family: 'Ubuntu', sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   text-align: left;
   color: #14415f;
 
@@ -25,12 +25,12 @@ header{
 
 h3 {
   font-family: 'Julius Sans One', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
 }
 p {
   font-family: 'Julius Sans One', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   margin: 2em 3em;
 }
